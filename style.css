@@ -33,7 +33,7 @@ body {
     padding: 10px;
     background: none;
     border: none;
-    color: #ffb6c1;
+    color: #cc3366;  /* darker pink */
     text-align: left;
     cursor: pointer;
 }
