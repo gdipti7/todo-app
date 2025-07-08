@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <aside class="sidebar">
+            <div class="logo">🏡 Mindnest</div>
+            <nav class="sidebar-nav">
+                <button class="active">MyNest</button>
+                <button disabled>Chat</button>
+                <button disabled>My Profile</button>
+                <button disabled>Documentation</button>
+                <button disabled>Contact us</button>
+            </nav>
+            <div class="avatar">
+                <img src="https://i.ibb.co/rfH0Nyy/meditation.png" alt="Avatar">
+            </div>
+        </aside>
+        <main class="main">
+            <header class="header">
+                <div class="profile">
+                    <span class="dot"></span>
+                    <span>Dipti G ▼</span>
+                </div>
+            </header>
+            <section class="welcome">
+                <h1>Hi, Dipti! 👋</h1>
+                <p>Let’s help you stay on the top of your day</p>
+                <div class="wellness">Your Wellness guide</div>
+            </section>
+
+            <section class="tasks">
+                <h2>Due now</h2>
+                <div class="task-grid">
+                    <button class="task task-1">Plan Today’s Tasks 📅</button>
+                    <button class="task task-2">Check Your To-Do List ✅</button>
+                    <button class="task task-3">Organize Project Tasks 🗂️</button>
+                    <button class="task task-4">Clean Your Workspace 🧹</button>
+                    <button class="task task-disabled" disabled>Prioritize Important Tasks</button>
+                    <button class="task task-upload">Upload Required Documents ⬆️</button>
+                </div>
+                <div class="new-task">
+                    <input type="text" placeholder="Add new task">
+                    <button class="save-task">Save as a new task</button>
+                </div>
+            </section>
+        </main>
+    </div>
+</body>
+</html>
